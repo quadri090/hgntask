@@ -6,16 +6,15 @@ body {
 .container {
     width: 100%vh;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Ensure full viewport height */
-    /* margin-top: 200px; */
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
 }
 
 /* Default styles for larger screens */
 .main {
     width: 556px;
-    height: 570px;
+    height: 100vh;
     flex-shrink: 0;
     background: #ff9804;
     box-shadow: 0px 8.723403930664062px 20.93617057800293px rgba(32, 31, 41, 0.08);
